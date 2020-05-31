@@ -1,15 +1,34 @@
 // Question 1: Declare and initialise a variable with a string value.
+var country = "china";
 
 // Question 2: Create an object variable called person and give it two properties (a key and a value) of your choice.
+var person = {
+  firstName: "Ola",
+  lastName: "Nordmann"
+};
 
 // Question 3: Create a variable called outOfStock and assign it a boolean value.
 //             Create an if else statement that checks the value of outOfStock.
 //             If it is true, console log "Out of stock". Otherwise log "In stock".
+var outOfStock = null;
+if (outOfStock === true) {
+  console.log("Out of stock")
+} else {
+  console.log("In stock")
+}
 
 // Question 4: Create an array of five numbers.
 //             Loop through the array and console log each value.
+var numbers = [1, 3, 5, 7, 9];
+
+for (i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
 
 // Question 5: Create a for loop that counts from 15 to 25. Console log the value of the counter variable inside the loop.
+for (var count = 15; count <= 25; count +=1){
+  console.log(count)
+}
 
 // Question 6: Using the same loop from the above question, only log the value of the counter variable if it is equal to 20.
 
