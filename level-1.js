@@ -26,8 +26,9 @@ for (i = 0; i < numbers.length; i++) {
 }
 
 // Question 5: Create a for loop that counts from 15 to 25. Console log the value of the counter variable inside the loop.
-for (var count = 15; count <= 25; count +=1){
-  console.log(count)
+var i;
+for (i = 15; i <= 25; i += 1) {
+  console.log(i)
 }
 
 // Question 6: Using the same loop from the above question, only log the value of the counter variable if it is equal to 20.
