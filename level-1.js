@@ -68,6 +68,12 @@ whatIDontLike("coronavirus");
 
 // Question 9: Create a function that accepts two arguments.
 //             Inside the function, subtract the second argument from the first and console log the result.
+function launch(spaceX, nasa) {
+  var cost = 5 - 3;
+  console.log(cost)
+}
+
+launch();
 
 // Question 10: Create an empty array.
 //              Create a function that accepts one argument.
