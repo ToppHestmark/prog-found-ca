@@ -45,6 +45,15 @@ for (var i = 15; i <= 25; i++) {
 //             one property with a number value
 //             one property with a boolean value
 //             Loop through the array and console log the number value and the boolean value.
+var country = [
+  {name: "USA", population: 328200000, freedomOfSpeech: true},
+  {name: "China", population: 1393000000, freedomOfSpeech: false}
+];
+
+for (i = 0; i < country.length; i++) {
+  console.log(country[i].population)
+  console.log(country[i].freedomOfSpeech)
+}
 
 // Question 8: Create a function called whatIDontLike that accepts one argument. Choose a good name for the argument.
 //             Inside the function, log the string "I don't like " together with the argument.
