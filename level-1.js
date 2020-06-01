@@ -79,3 +79,10 @@ launch();
 //              Create a function that accepts one argument.
 //              Inside the function, add the argument to the array.
 //              Call the function and pass in a value of any type.
+var tesla = [];
+function drive(fast) {
+  var speed = fast + tesla;
+  console.log(speed)
+}
+
+drive("slowly");
