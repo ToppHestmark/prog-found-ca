@@ -26,12 +26,19 @@ for (i = 0; i < numbers.length; i++) {
 }
 
 // Question 5: Create a for loop that counts from 15 to 25. Console log the value of the counter variable inside the loop.
-var i;
-for (i = 15; i <= 25; i += 1) {
+for (var i = 15; i <= 25; i++) {
   console.log(i)
 }
 
 // Question 6: Using the same loop from the above question, only log the value of the counter variable if it is equal to 20.
+var number = 20;
+for (var i = 15; i <= 25; i++) {
+  if (number === 20) {
+    console.log(number)
+  } else {
+    console.log(i)
+  }
+}
 
 // Question 7: Create an array of two objects. Each object must have the same three properties (with different values):
 //             one property with a string value
