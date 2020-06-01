@@ -60,6 +60,11 @@ for (i = 0; i < country.length; i++) {
 //             Call the function and pass in a value of your choice.
 //             Example:
 //             If you pass in the value "giraffes", the function should log: "I don't like giraffes".
+function whatIDontLike(coriander) {
+  console.log("I don't like " + coriander)
+}
+
+whatIDontLike("coronavirus");
 
 // Question 9: Create a function that accepts two arguments.
 //             Inside the function, subtract the second argument from the first and console log the result.
