@@ -16,7 +16,9 @@ function sentence() {
 }
 var innerFunction = sentence();
 
-function outerFunction(outerArgument) {
-  outerArgument();
+function outerFunction(oneArgument) {
+  oneArgument();
 }
+
 outerFunction(innerFunction);
+
