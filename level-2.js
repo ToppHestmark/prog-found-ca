@@ -11,3 +11,12 @@ for (var i = 15; i <= 25; i++) {
 // Create another function called outerFunction that accepts one argument.
 // Inside outerFunction, call the argument like you would a function - with parenthesis ().
 // Call outerFunction and pass in the innerFunction variable.
+function sentence() {
+  console.log("I am a function");
+}
+var innerFunction = sentence();
+
+function outerFunction(outerArgument) {
+  outerArgument();
+}
+outerFunction(innerFunction);
